@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A39C73B25C5E902E3467D9B72DF5353703A606E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A39C73B25C5E902E3467D9B72DF5353703A606E" : 9223372036854775807,
+    "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B29A7B69-3ED2-488A-9236-63289B3BC269",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A39C73B25C5E902E3467D9B72DF5353703A606E" : "iOS\/",
+    "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoodRating",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FoodRating\/FoodRating.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZeldYuan\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZeldaYuan\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A39C73B25C5E902E3467D9B72DF5353703A606E"
+    }
+  ]
+}

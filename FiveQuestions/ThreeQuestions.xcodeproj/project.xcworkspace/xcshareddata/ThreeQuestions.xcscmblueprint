@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A39C73B25C5E902E3467D9B72DF5353703A606E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A39C73B25C5E902E3467D9B72DF5353703A606E" : 9223372036854775807,
+    "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "270FB20F-2E41-4562-AFE3-02A34FEBAF08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A39C73B25C5E902E3467D9B72DF5353703A606E" : "iOS\/",
+    "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ThreeQuestions",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FiveQuestions\/ThreeQuestions.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZeldYuan\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "106C1AE3221F920AF5E6D3A8F8FE7E6A9F10F0CB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZeldaYuan\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A39C73B25C5E902E3467D9B72DF5353703A606E"
+    }
+  ]
+}

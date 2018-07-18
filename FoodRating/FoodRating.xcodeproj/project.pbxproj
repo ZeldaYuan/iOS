@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34044E551EE7834F00D4DD47 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34044E541EE7834F00D4DD47 /* MealTableViewCell.swift */; };
+		34044E571EE7A2C500D4DD47 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34044E561EE7A2C500D4DD47 /* MealTableViewController.swift */; };
+		34047A311EE500B400DE40D5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34047A301EE500B400DE40D5 /* Meal.swift */; };
+		3409730A1EE0AAE300224E9B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340973091EE0AAE300224E9B /* RatingControl.swift */; };
+		3464585D1EDC9E9400F34505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3464585C1EDC9E9400F34505 /* AppDelegate.swift */; };
+		3464585F1EDC9E9400F34505 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3464585E1EDC9E9400F34505 /* MealViewController.swift */; };
+		346458621EDC9E9500F34505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346458601EDC9E9500F34505 /* Main.storyboard */; };
+		346458641EDC9E9500F34505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346458631EDC9E9500F34505 /* Assets.xcassets */; };
+		346458671EDC9E9500F34505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346458651EDC9E9500F34505 /* LaunchScreen.storyboard */; };
+		346458721EDC9E9500F34505 /* FoodRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346458711EDC9E9500F34505 /* FoodRatingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3464586E1EDC9E9500F34505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 346458511EDC9E9400F34505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 346458581EDC9E9400F34505;
+			remoteInfo = FoodRating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34044E541EE7834F00D4DD47 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		34044E561EE7A2C500D4DD47 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		34047A301EE500B400DE40D5 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		340973091EE0AAE300224E9B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		346458591EDC9E9400F34505 /* FoodRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3464585C1EDC9E9400F34505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3464585E1EDC9E9400F34505 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		346458611EDC9E9500F34505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		346458631EDC9E9500F34505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		346458661EDC9E9500F34505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		346458681EDC9E9500F34505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3464586D1EDC9E9500F34505 /* FoodRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		346458711EDC9E9500F34505 /* FoodRatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRatingTests.swift; sourceTree = "<group>"; };
+		346458731EDC9E9600F34505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346458561EDC9E9400F34505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3464586A1EDC9E9500F34505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346458501EDC9E9400F34505 = {
+			isa = PBXGroup;
+			children = (
+				3464585B1EDC9E9400F34505 /* FoodRating */,
+				346458701EDC9E9500F34505 /* FoodRatingTests */,
+				3464585A1EDC9E9400F34505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3464585A1EDC9E9400F34505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346458591EDC9E9400F34505 /* FoodRating.app */,
+				3464586D1EDC9E9500F34505 /* FoodRatingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3464585B1EDC9E9400F34505 /* FoodRating */ = {
+			isa = PBXGroup;
+			children = (
+				3464585C1EDC9E9400F34505 /* AppDelegate.swift */,
+				3464585E1EDC9E9400F34505 /* MealViewController.swift */,
+				340973091EE0AAE300224E9B /* RatingControl.swift */,
+				34047A301EE500B400DE40D5 /* Meal.swift */,
+				34044E561EE7A2C500D4DD47 /* MealTableViewController.swift */,
+				34044E541EE7834F00D4DD47 /* MealTableViewCell.swift */,
+				346458601EDC9E9500F34505 /* Main.storyboard */,
+				346458631EDC9E9500F34505 /* Assets.xcassets */,
+				346458651EDC9E9500F34505 /* LaunchScreen.storyboard */,
+				346458681EDC9E9500F34505 /* Info.plist */,
+			);
+			path = FoodRating;
+			sourceTree = "<group>";
+		};
+		346458701EDC9E9500F34505 /* FoodRatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				346458711EDC9E9500F34505 /* FoodRatingTests.swift */,
+				346458731EDC9E9600F34505 /* Info.plist */,
+			);
+			path = FoodRatingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346458581EDC9E9400F34505 /* FoodRating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346458761EDC9E9600F34505 /* Build configuration list for PBXNativeTarget "FoodRating" */;
+			buildPhases = (
+				346458551EDC9E9400F34505 /* Sources */,
+				346458561EDC9E9400F34505 /* Frameworks */,
+				346458571EDC9E9400F34505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodRating;
+			productName = FoodRating;
+			productReference = 346458591EDC9E9400F34505 /* FoodRating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3464586C1EDC9E9500F34505 /* FoodRatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346458791EDC9E9600F34505 /* Build configuration list for PBXNativeTarget "FoodRatingTests" */;
+			buildPhases = (
+				346458691EDC9E9500F34505 /* Sources */,
+				3464586A1EDC9E9500F34505 /* Frameworks */,
+				3464586B1EDC9E9500F34505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3464586F1EDC9E9500F34505 /* PBXTargetDependency */,
+			);
+			name = FoodRatingTests;
+			productName = FoodRatingTests;
+			productReference = 3464586D1EDC9E9500F34505 /* FoodRatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346458511EDC9E9400F34505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Zelda Yuan";
+				TargetAttributes = {
+					346458581EDC9E9400F34505 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3464586C1EDC9E9500F34505 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 346458581EDC9E9400F34505;
+					};
+				};
+			};
+			buildConfigurationList = 346458541EDC9E9400F34505 /* Build configuration list for PBXProject "FoodRating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346458501EDC9E9400F34505;
+			productRefGroup = 3464585A1EDC9E9400F34505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346458581EDC9E9400F34505 /* FoodRating */,
+				3464586C1EDC9E9500F34505 /* FoodRatingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346458571EDC9E9400F34505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346458671EDC9E9500F34505 /* LaunchScreen.storyboard in Resources */,
+				346458641EDC9E9500F34505 /* Assets.xcassets in Resources */,
+				346458621EDC9E9500F34505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3464586B1EDC9E9500F34505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346458551EDC9E9400F34505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34047A311EE500B400DE40D5 /* Meal.swift in Sources */,
+				3464585F1EDC9E9400F34505 /* MealViewController.swift in Sources */,
+				3409730A1EE0AAE300224E9B /* RatingControl.swift in Sources */,
+				3464585D1EDC9E9400F34505 /* AppDelegate.swift in Sources */,
+				34044E571EE7A2C500D4DD47 /* MealTableViewController.swift in Sources */,
+				34044E551EE7834F00D4DD47 /* MealTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346458691EDC9E9500F34505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346458721EDC9E9500F34505 /* FoodRatingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3464586F1EDC9E9500F34505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 346458581EDC9E9400F34505 /* FoodRating */;
+			targetProxy = 3464586E1EDC9E9500F34505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		346458601EDC9E9500F34505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346458611EDC9E9500F34505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346458651EDC9E9500F34505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346458661EDC9E9500F34505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		346458741EDC9E9600F34505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		346458751EDC9E9600F34505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346458771EDC9E9600F34505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodRating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoodRating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		346458781EDC9E9600F34505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodRating/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoodRating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3464587A1EDC9E9600F34505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodRatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoodRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodRating.app/FoodRating";
+			};
+			name = Debug;
+		};
+		3464587B1EDC9E9600F34505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodRatingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FoodRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodRating.app/FoodRating";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346458541EDC9E9400F34505 /* Build configuration list for PBXProject "FoodRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346458741EDC9E9600F34505 /* Debug */,
+				346458751EDC9E9600F34505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346458761EDC9E9600F34505 /* Build configuration list for PBXNativeTarget "FoodRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346458771EDC9E9600F34505 /* Debug */,
+				346458781EDC9E9600F34505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346458791EDC9E9600F34505 /* Build configuration list for PBXNativeTarget "FoodRatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3464587A1EDC9E9600F34505 /* Debug */,
+				3464587B1EDC9E9600F34505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346458511EDC9E9400F34505 /* Project object */;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodRating" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uqa-XR-f0G">
+                                <rect key="frame" x="0.0" y="44" width="908" height="320"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Meal name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6H-2e-8uQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="320"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ski-wt-Wrm">
+                                        <rect key="frame" x="92" y="0.0" width="129" height="320"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WaN-oF-nmK">
+                                                <rect key="frame" x="0.0" y="0.0" width="129" height="320"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="WaN-oF-nmK" secondAttribute="trailing" id="N4e-jl-cTN"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="N4e-jl-cTN"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular" axis="vertical">
+                                            <mask key="constraints">
+                                                <include reference="N4e-jl-cTN"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxM-Ql-wAt">
+                                        <rect key="frame" x="229" y="0.0" width="143" height="320"/>
+                                        <state key="normal" title="Set Default label text"/>
+                                        <connections>
+                                            <action destination="BYZ-38-t0r" eventType="touchUpInside" id="Tkl-lj-0RE">
+                                                <string key="selector">IBActionfuncsetDefaultLabelText_senderUIButtonIBActionfuncsetDefaultLabelText_senderUIButtonIBActionfuncsetDefaultLabelText_senderUIButtonsetDefaultLabelText:</string>
+                                            </action>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bde-xG-DZg"/>
+                                        </connections>
+                                    </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="OdN-pg-HpZ">
+                                        <rect key="frame" x="380" y="0.0" width="320" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="OdN-pg-HpZ" secondAttribute="height" multiplier="1:1" id="5Qx-hz-qVP"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="5Qx-hz-qVP"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="5Qx-hz-qVP"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ytt-Ni-RwT" customClass="RatingControl" customModule="FoodRating" customModuleProvider="target">
+                                        <rect key="frame" x="708" y="0.0" width="200" height="320"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="starSize">
+                                                <size key="value" width="44" height="44"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ski-wt-Wrm" secondAttribute="trailing" id="j3P-Iv-Edn"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="j3P-Iv-Edn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular" alignment="top" axis="vertical">
+                                    <mask key="constraints">
+                                        <include reference="j3P-Iv-Edn"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mMI-ly-oby" appends="YES" id="GDb-VR-iOa"/>
+                                </connections>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uqa-XR-f0G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="5dx-A5-QM5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uqa-XR-f0G" secondAttribute="trailing" id="X9O-dw-mlo"/>
+                            <constraint firstItem="uqa-XR-f0G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hyt-uM-hr8"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5dx-A5-QM5"/>
+                                <exclude reference="X9O-dw-mlo"/>
+                                <exclude reference="hyt-uM-hr8"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="5dx-A5-QM5"/>
+                                <include reference="X9O-dw-mlo"/>
+                                <include reference="hyt-uM-hr8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="c6H-2e-8uQ" id="a3E-i0-RFb"/>
+                        <outlet property="nameTextField" destination="WaN-oF-nmK" id="ylH-eX-L3i"/>
+                        <outlet property="photoImageView" destination="OdN-pg-HpZ" id="bZ3-U9-pcJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="mMI-ly-oby">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="CHn-5P-RdT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="273" y="207.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defaultPhoto" width="260" height="230"/>
+    </resources>
+</document>
